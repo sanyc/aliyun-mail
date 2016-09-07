@@ -5,10 +5,10 @@ thinkphp 5<br>
 在配置文件config中增加<br>
 ```php
 'mail' => [
-	'accessKey' => 'gw9QdAXXXYjR1Uu', <br>
-	'accessSecret' => 'dyOOXvXXXXXXXXAgr7hXJCr5wdBDd', <br>
-	'accountName' => 'xxxxxxx@m.shsytour.cn', <br>
-	'fromAlias' => '双辉旅程'<br>
+	'accessKey' => 'gw9QdAXXXYjR1Uu', 
+	'accessSecret' => 'dyOOXvXXXXXXXXAgr7hXJCr5wdBDd', 
+	'accountName' => 'xxxxxxx@m.shsytour.cn', 
+	'fromAlias' => '双辉旅程'
 	]
 
 use Sanyc\Aliyun\AliyunEmail;
