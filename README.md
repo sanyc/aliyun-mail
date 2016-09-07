@@ -1,5 +1,4 @@
-#aliyunmail
-双辉内部使用
+双辉旅程内部使用
 thinkphp 5
 
 使用方法
