@@ -13,6 +13,4 @@ thinkphp 5
 
 use Sanyc\Aliyun\AliyunEmail;
 
-$mail = new AliyunEmail(config('mail'));
-
-$mail->send('123456@qq.com', '测试', '你好！这里是双辉旅程');
+$mail = AliyunEmail::init(config('mail'))->send('123456@qq.com', '测试', '你好！这里是双辉旅程');

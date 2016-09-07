@@ -1,6 +1,6 @@
 {
     "name": "sanyc/aliyun-mail",
-    "description": "阿里云邮件及短信",
+    "description": "阿里云邮件",
     "license": "Apache-2.0",
     "authors": [
         {

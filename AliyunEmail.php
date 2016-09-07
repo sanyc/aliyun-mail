@@ -12,6 +12,7 @@ class AliyunEmail
     protected $client;
     protected $request;
     protected $accountName;
+    protected static $instance;
 
     public function __construct($configs)
     {
@@ -25,6 +26,14 @@ class AliyunEmail
 
         $this->client = new DefaultAcsClient($iClientProfile);
         $this->request = new SingleSendMailRequest();
+    }
+    
+    public static function init($config = [])
+    {
+        if (is_null(self::$instance)) {
+            self::$instance = new self($config);
+        }
+        return self::$instance;
     }
 
     /**
