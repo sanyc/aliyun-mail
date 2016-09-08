@@ -13,9 +13,7 @@
     },
     "autoload":{
         "psr-4": {
-            "Sanyc\\Aliyun\\": "/",
-            "Sanyc\\Aliyun\\SDK\\": "src/aliyun-php-sdk",
-            "Sanyc\\Aliyun\\DM\\": "src/aliyun-php-sdk-dm"
+            "Sanyc\\Aliyun\\": "src/"
         }
     }
 }
