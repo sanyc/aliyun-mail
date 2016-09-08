@@ -1,6 +1,6 @@
 {
     "name": "sanyc/aliyun-mail",
-    "description": "阿里云邮件",
+    "description": "使用阿里云邮件推送服务",
     "license": "Apache-2.0",
     "authors": [
         {
@@ -13,7 +13,9 @@
     },
     "autoload":{
         "psr-4": {
-            "Sanyc\\Aliyun\\": "/"
+            "Sanyc\\Aliyun\\": "/",
+            "Sanyc\\Aliyun\\SDK\\": "src/aliyun-php-sdk",
+            "Sanyc\\Aliyun\\DM\\": "src/aliyun-php-sdk-dm"
         }
     }
 }
